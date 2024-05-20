@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Simple Attendance</string>
+    <string name="register">Register</string>
+    <string name="check_in_out">Check IN/OUT</string>
+    <string name="visualization">Visualization</string>
+    <string name="registration">Registration</string>
+    <string name="save">Save</string>
+    <string name="download_or_print_qr">Download or Print QR</string>
+    <string name="download_print">Download / Print</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="capture_selfie">Capture Selfie</string>
+    <string name="compare">Compare</string>
+    <string name="compare_two_selfie_photos">Compare two Selfie photos</string>
+</resources>

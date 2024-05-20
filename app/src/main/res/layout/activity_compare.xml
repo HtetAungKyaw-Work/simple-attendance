@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CompareActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/compare_two_selfie_photos"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/ivSelfie1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <ImageView
+        android:id="@+id/ivSelfie2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCompare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/compare"
+        android:textAllCaps="false"
+        android:background="@color/white"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>
